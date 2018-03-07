@@ -1,0 +1,16 @@
+/*
+Task: Given the meal price (base cost of a meal), tip percent 
+(the percentage of the meal price being added as tip), 
+and tax percent (the percentage of the meal price being 
+added as tax) for a meal, find and print the meal's total cost.
+*/
+
+import Foundation
+
+// Enter your code here. Read input from STDIN. Print output to STDOUT 
+
+let mealCost = Double(readLine()!)!
+let tipPercent = Double(readLine()!)!
+let taxPercent = Double(readLine()!)!
+
+print("The total meal cost is \(Int(round(mealCost + mealCost*tipPercent/100 + mealCost*taxPercent/100))) dollars.") 

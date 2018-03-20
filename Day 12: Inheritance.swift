@@ -47,7 +47,7 @@ class Student: Person {
     */
     // Write your method here
     func calculate() -> Character {
-        assert(testScores.count > 1)    // safety valve
+        assert(testScores.count > 0)    // safety valve
 
     	let sumArray = testScores.reduce(0, +) // add up the scores
         let ave = sumArray / testScores.count   // average them

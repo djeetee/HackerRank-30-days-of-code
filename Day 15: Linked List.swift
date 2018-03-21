@@ -25,7 +25,7 @@ func insert(head: Node?, data: Int!) -> Node? {
         }
         lastHead.next = node
         return head
-    } else {    // first not in the list
+    } else {    // it's the first node in the list
         return node
     }
 }

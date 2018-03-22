@@ -1,6 +1,6 @@
 # HackerRank-30-days-of-code
 
-Passing time.
+Passing time (while my Neural Net is crunching datasets away)
 
 Yes, I can code.
 

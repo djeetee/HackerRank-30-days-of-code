@@ -8,13 +8,13 @@ struct Printer<T> {
 	**/
 	
 	// Write your code here
-    
-    // the printArray() takes any array and prints its elements
-    func printArray(array: [T]) -> Void {
-        for item in array {
-            print(item)
-        }
-    }
+
+	// the printArray() takes any array and prints its elements
+	func printArray(array: [T]) -> Void {
+		for item in array {
+			print(item)
+		}
+	}
 }
 
 var n = Int(readLine()!)!

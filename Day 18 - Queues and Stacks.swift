@@ -34,6 +34,9 @@ let s = readLine()!
 let obj = Solution()
 
 // push/enqueue all the characters of string s to stack.
+// ****
+// **** djeetee: .characters has been deprecated. for c in s should be used instead
+// ****
 for c in s.characters {
     obj.pushCharacter(c: c)
     obj.enqueueCharacter(c: c)
@@ -44,6 +47,9 @@ var isPalindrome = true
 // pop the top character from stack.
 // dequeue the first character from queue.
 // compare both the characters.
+// ****
+// **** djeetee: .characters has been deprecated. for c in s.count should be used instead
+// ****
 for _ in 0..<(s.characters.count / 2) {
     if obj.popCharacter() != obj.dequeueCharacter() {
         isPalindrome = false

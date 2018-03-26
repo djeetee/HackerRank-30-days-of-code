@@ -27,6 +27,11 @@ class Tree {
         return root
     }
     
+    
+    // Calculates the height of BST.
+    // A BST of one node (i.e root node) has a height of 0
+    // The height of an empty subtree is -1
+    // the height of each node is 1+ the maximum height of its subtrees
 
     func getHeight(root: Node?) -> Int {
     	// Complete the function

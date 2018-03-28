@@ -4,6 +4,6 @@ Passing time (while my Neural Net is crunching datasets away)
 
 Yes, I can code.
 
-The basic stuff.
+Not just the basic stuff,
 
-And a lot more.
+but a lot more.
